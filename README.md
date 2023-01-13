@@ -1,10 +1,5 @@
-README.md
-errors
-files-and-scripts
+## Separate git repos, set up a script to pull them all more easily?
 git-stuff
 html
-js-essential
 lamarr
 programming-fundamentals
-shell
-writing-tests
