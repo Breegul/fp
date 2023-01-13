@@ -1,0 +1,1 @@
+curl $BOOKURL > book.txt
