@@ -1,5 +1,5 @@
 body {
-    background-color:darkkhaki;
+    background-color: #285238;
 }
 
 #fruit-basket {
@@ -14,17 +14,21 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 5px;
-    background-color:forestgreen;
+    background-color:#138a36;
     border-radius: 5px;
+    box-shadow: 4px 5px 5px #34403a;
 }
 h2 {
     font-family:Arial, Helvetica, sans-serif;
     margin:10px 5px;
 }
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .fruit > button {
     margin-bottom: 5px;
-    background-color: chartreuse;
-    border: 1px solid brown;
+    background-color: #04e824;
+    border: 1px solid #34403a;
     border-radius: 5px;
 }
 
@@ -48,8 +52,9 @@ form > label {
 }
 #add-button{
     flex-basis: 20%;
-    background-color: green;
+    background-color: #04e824;
     border-radius: 15px;
+    border: 2px solid #34403a;
     line-height: 20%;
     padding: 20px 20px 20px 20px;
 }
