@@ -1,0 +1,17 @@
+header {
+    margin-bottom: 20px;
+}
+form {
+    display: inline
+}
+#pokedex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pokemon-card{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px coral;
+}
