@@ -1,6 +1,7 @@
-const liArr = document.querySelectorAll("li");
+const button = document.querySelector("#clicker");
+const display = document.querySelector("#readout");
 
-liArr.forEach(e => {
-    e.innerText = e.innerText + "  X";
-    e.style.border = "3px dashed chartreuse";
-})
+button.addEventListener("click", (e) => {
+    console.log("Clicked!");
+    display.textContent = parseInt(display.textContent) + Math.ceil(Math.random()*10);
+});
