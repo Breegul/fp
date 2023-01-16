@@ -1,7 +1,6 @@
-const button = document.querySelector("#clicker");
-const display = document.querySelector("#readout");
+const form = document.querySelector("#selection-section > form");
 
-button.addEventListener("click", (e) => {
-    console.log("Clicked!");
-    display.textContent = parseInt(display.textContent) + Math.ceil(Math.random()*10);
-});
+form.addEventListener("submit", (e) =>{
+    e.preventDefault();
+    console.log(e.target["fruit-name"].value);
+})
